@@ -28,6 +28,6 @@ jobs:
         name: Build and Push
         run: |
           DATE=$(date +%Y%m%d)
-          docker build --tag jockerdragon/mobaxterm-crack:$DATE .
-          docker push jockerdragon/mobaxterm-crack:$DATE
+          docker build --tag phpll01/mobaxterm:$DATE .
+          docker push phpll01/mobaxterm:$DATE
 
