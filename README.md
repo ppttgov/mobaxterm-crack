@@ -3,7 +3,7 @@
 ```bash
 docker run -it -d \
     -p 80:80 \
-    phpll01/mobaxterm:20250408
+    ppttgov/mobaxterm:20250409
 ```
 网页端选择你想要的版本。
 然后复制 `Custom.mxtpro` 到 `C:\Program Files (x86)\Mobatek\MobaXterm.`或便携版所在路径
